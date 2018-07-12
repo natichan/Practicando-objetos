@@ -6,10 +6,10 @@ var students = [['name','Lucia'],['course','UX'],['edad', 30]];
 //console.log(food);
 //console.log(students);
 // creo una variable vacía, lo que guarde aca será un objeto
-var newObject = {};
 
 // creo una función array to object
 const arrayToObject = function (array2D) {
+    var newObject = {};
 // recorro el elemento donde le pasare el array
 for(i = 0; i < array2D.length; i++){
     // de mi objeto quiero obtener el recorrido con el indice (i)
